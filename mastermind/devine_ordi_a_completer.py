@@ -10,7 +10,7 @@ def enumerer_configs(n_couleurs=6, p_positions=4):
         * n_couleurs : int
         * p_positions : int
     Sortie ; List
-    renvoie une liste de toutes les combianisons possibles avec les n_couleurs et p_positions
+    renvoie une liste de toutes les combinaisons possibles avec les n_couleurs et p_positions
     """
     if (p_positions == 0):
         return [[]]
